@@ -1,0 +1,19 @@
+.skills {
+    padding: 20px;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .skill {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+  }
+  

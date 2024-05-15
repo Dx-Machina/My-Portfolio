@@ -1,0 +1,24 @@
+.projects {
+    padding: 20px;
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+  }
+  
+  .project a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
