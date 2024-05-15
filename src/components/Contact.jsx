@@ -23,9 +23,9 @@ const Contact = () => {
     <div className="contact">
       <h2>Contact Me</h2>
       <form onSubmit={handleSubmit}>
-        <input type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} required />
-        <input type="email" name="email" placeholder="Your Email" value={formData.email} onChange={handleChange} required />
-        <textarea name="message" placeholder="Your Message" value={formData.message} onChange={handleChange} required></textarea>
+        <input type="text" name="name" placeholder="Youssef Hegazy" value={formData.name} onChange={handleChange} required />
+        <input type="email" name="email" placeholder="YoussefH@CSU.Fullerton.edu" value={formData.email} onChange={handleChange} required />
+        <textarea name="message" placeholder="Thank You !!" value={formData.message} onChange={handleChange} required></textarea>
         <button type="submit">Send</button>
       </form>
     </div>
