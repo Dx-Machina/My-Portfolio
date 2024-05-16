@@ -3,14 +3,14 @@ import './Projects.css';
 
 const projects = [
   {
-    title: 'Project One',
-    description: 'A brief description of Project One.',
-    link: 'https://github.com/yourusername/project-one',
+    title: 'Project PyOMy',
+    description: "AI-voice assistant fused with OpenAI's ChatGPT. It produces voice and written responses.",
+    link: 'https://github.com/Dx-Machina/PyOMy',
   },
   {
-    title: 'Project Two',
-    description: 'A brief description of Project Two.',
-    link: 'https://github.com/yourusername/project-two',
+    title: 'ScroogeCoin',
+    description: 'A simple blockchain-based cryptocurrency implemented in Java. ',
+    link: 'https://github.com/Dx-Machina/ScroogeCoin',
   },
   // Add more projects as needed
 ];

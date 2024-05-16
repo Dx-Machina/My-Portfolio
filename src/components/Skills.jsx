@@ -5,6 +5,17 @@ const skills = [
   { name: 'JavaScript', level: 'Advanced' },
   { name: 'React', level: 'Advanced' },
   { name: 'Node.js', level: 'Intermediate' },
+  { name: 'Python', level: 'Advanced' },
+  { name: 'Java', level: 'Advanced' },
+  { name: 'C++', level: 'Advanced' },
+  { name: 'Blockchain', level: 'Intermediate' },
+  { name: 'FE Web Development', level: 'Advanced' },
+  { name: 'AI', level: 'Intermediate' },
+  { name: 'Databases', level: 'Intermediate'},
+  { name: 'Data Structures', level: 'Advanced' },
+  { name: 'Algorithms', level: 'Advanced' },
+  { name: 'Computer Communications', level: 'Advanced'}
+
   // Add more skills as needed
 ];
 
