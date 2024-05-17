@@ -3,19 +3,22 @@ import './Skills.css';
 
 const skills = [
   { name: 'JavaScript', level: 'Advanced' },
-  { name: 'React', level: 'Intermediate' },
   { name: 'Node.js', level: 'Intermediate' },
+  { name: 'React js', level: 'Intermediate' },
+  { name: 'C', level: 'Intermediate' },
+  { name: 'C#', level: 'Intermediate' },
+  { name: 'C++', level: 'Legendary' },
   { name: 'Python', level: 'Advanced' },
   { name: 'Java', level: 'Advanced' },
-  { name: 'C++', level: 'Legendary' },
-  { name: 'Blockchain', level: 'Intermediate' },
-  { name: 'FE Web Development', level: 'Intermediate' },
-  { name: 'AI', level: 'Intermediate' },
-  { name: 'Databases', level: 'Intermediate'},
+  { name: 'MIPS Assembly', level: 'Intermediate' },
+  { name: 'x86 Assembly', level: 'Intermediate' },
+  { name: 'Blockchain Technology', level: 'Advanced' },
+  { name: 'Front End Web Development', level: 'Intermediate' },
+  { name: 'Artificial Intelligence', level: 'Intermediate' },
+  { name: 'Relational Databases', level: 'Intermediate'},
   { name: 'Data Structures', level: 'Advanced' },
   { name: 'Algorithms Engineering', level: 'Advanced' },
   { name: 'Computer Communications', level: 'Advanced'}
-
   // Add more skills as needed
 ];
 
@@ -23,6 +26,7 @@ const Skills = () => {
   return (
     <div className="skills">
       <h2>Skills and Expertise</h2>
+      <p>Here are some of the skills I have acquired over the years.</p>
       <div className="skills-list">
         {skills.map((skill, index) => (
           <div key={index} className="skill">
