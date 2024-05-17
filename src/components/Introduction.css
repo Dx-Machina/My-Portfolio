@@ -1,11 +1,14 @@
 .introduction {
-    text-align: center;
-    margin: 20px;
-  }
-  
-  .introduction img {
-    width: 150px;
-    border-radius: 50%;
-    margin-top: 20px;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  margin: 200px;
+}
+
+.introduction img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}

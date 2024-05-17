@@ -8,6 +8,16 @@ const projects = [
     link: 'https://github.com/Dx-Machina/PyOMy',
   },
   {
+    title: 'Crane Problem Solver',
+    description: "Implements two algorithms that both solve the crane unloading problem. The first algorithm uses exhaustive optimization and takes exponential time. The second algorithm uses dynamic programming, and takes cubic time. Check back here regularly (and especially before your final submission), to make sure your submission complies with any changes or edits. You may check the top of the document, where the date of the last edit will be noted.The Exhaustive Optimization Algorithm, and The Dynamic Programming Algorithm.",
+    link: 'https://github.com/Dx-Machina/CraneProblem',
+  },
+  {
+    title: 'Socket Programming Web Server',
+    description: "A simple web server implemented in Python using socket programming. The server can handle multiple client requests and serves static files.",
+    link: 'https://github.com/Dx-Machina/471CC',
+  },
+  {
     title: 'ScroogeCoin',
     description: 'A simple blockchain-based cryptocurrency implemented in Java. ',
     link: 'https://github.com/Dx-Machina/ScroogeCoin',

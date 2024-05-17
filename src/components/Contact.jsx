@@ -20,9 +20,14 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact">      
+    <div className="contact">
+      <h2>About Me</h2>
+      <p>My Name is Youssef Hegazy</p>
+      <p>My Email is: YoussefH@CSU.Fullerton.edu</p>     
       <p>Have a question or want to work together?</p>
       <h2>Contact Me</h2>
+      <p>Fill out the form below, and I'll get back to you as soon as possible.</p>
+
       <form onSubmit={handleSubmit}>
         <input type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} required />
         <input type="email" name="email" placeholder="Your Email Address" value={formData.email} onChange={handleChange} required />
