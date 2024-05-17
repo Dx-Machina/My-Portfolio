@@ -1,13 +1,16 @@
 .navbar {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .navbar a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px; /* Adjust this value to increase or decrease the distance between the links */
+}

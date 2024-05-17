@@ -20,16 +20,24 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact">
+    <div className="contact">      
+      <p>Have a question or want to work together?</p>
       <h2>Contact Me</h2>
       <form onSubmit={handleSubmit}>
-        <input type="text" name="name" placeholder="Youssef Hegazy" value={formData.name} onChange={handleChange} required />
-        <input type="email" name="email" placeholder="YoussefH@CSU.Fullerton.edu" value={formData.email} onChange={handleChange} required />
-        <textarea name="message" placeholder="Thank You !!" value={formData.message} onChange={handleChange} required></textarea>
+        <input type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} required />
+        <input type="email" name="email" placeholder="Your Email Address" value={formData.email} onChange={handleChange} required />
+        <textarea name="message" placeholder="Your Message" value={formData.message} onChange={handleChange} required></textarea>
         <button type="submit">Send</button>
       </form>
+      {/* Add your GitHub and LinkedIn links */}
+      <h2>Let's Link up </h2>
+      <a href="https://github.com/Dx-Machina" target="_blank" rel="noopener noreferrer"> 
+          <img src="/github-icon.png" alt="GitHub" className="social-icon"/>
+          <a href="https://linkedin.com/in/dx-machina" target="_blank" rel="noopener noreferrer"> 
+            <img src="/In-icon.png" alt="LinkedIn" className="social-icon"/>
+          </a>
+      </a>
     </div>
   );
 };
-
 export default Contact;
