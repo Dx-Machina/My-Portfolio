@@ -1,16 +1,16 @@
 .navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  padding: 10px;
-  background-color: #333;
-  color: #fff;
+  position: fixed;                  /* Fixed the navbar at the top of the page */
+  top: 0;                           /* Position the navbar at the top of the page */
+  width: 100%;                      /* Make the navbar take the full width of the page */
+  display: flex;                    /* Make the navbar a flex container */
+  justify-content: space-around;    /* Distribute the links evenly */
+  padding: 10px;                    /* Add padding to the navbar */
+  background-color: #333;         /* Set the background color of the navbar */
+  color: #fff;                    /* Set the text color of the links */
 }
 
 .navbar a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 20px; /* Adjust this value to increase or decrease the distance between the links */
+  color: #fff;                    /* Set the text color of the links */
+  text-decoration: none;            /* Remove the underline from the links */
+  margin: 0 20px;                   /* Adjust this value to increase or decrease the distance between the links */
 }

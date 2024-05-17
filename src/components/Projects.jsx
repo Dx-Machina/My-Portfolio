@@ -1,11 +1,11 @@
 import React from 'react';
 import './Projects.css';
 
-const projects = [
-  {
-    title: 'Project PyOMy',
-    description: "AI-voice assistant fused with OpenAI's ChatGPT. It produces voice and written responses.",
-    link: 'https://github.com/Dx-Machina/PyOMy',
+const projects = [  // Create an array of project objects
+  { // Add a project object
+    title: 'Project PyOMy', // Add a project title
+    description: "AI-voice assistant fused with OpenAI's ChatGPT. It produces voice and written responses.", // Add a project description
+    link: 'https://github.com/Dx-Machina/PyOMy',  // Add a project link
   },
   {
     title: 'Crane Problem Solver',
@@ -25,14 +25,14 @@ const projects = [
   // Add more projects as needed
 ];
 
-const Projects = () => {
+const Projects = () => {  // Create a functional component for the Projects
   return (
     <div className="projects">
       <h2>Projects</h2>
-      <div className="projects-list">
-        {projects.map((project, index) => (
+      <div className="projects-list"> 
+        {projects.map((project, index) => ( // Map over the projects array, Add a key prop to the div element, Add a heading element with the project title, Add a paragraph element with the project description, Add a link element with the project link.
           <div key={index} className="project">
-            <h3>{project.title}</h3>
+            <h3>{project.title}</h3>  
             <p>{project.description}</p>
             <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
           </div>
@@ -42,4 +42,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Projects;  // Export the Projects component

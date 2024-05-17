@@ -1,24 +1,24 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Import the BrowserRouter, Route, and Routes components
 
-import Navbar from './components/Navbar';
-import Introduction from './components/Introduction';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Navbar from './components/Navbar';                                  // Import the Navbar component
+import Introduction from './components/Introduction';                      // Import the Introduction component
+import Skills from './components/Skills';                                  // Import the Skills component
+import Projects from './components/Projects';                              // Import the Projects component
+import Contact from './components/Contact';                                // Import the Contact component
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/Introduction" element={<Introduction />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </Router>
+    <Router>                                                                {/* Wrap the entire application in the Router component */}
+      <Navbar />                                                            {/* Add the Navbar component */}
+      <Routes>                                                              {/* Add the Routes component */}
+        <Route path="/Introduction" element={<Introduction />} />           {/* Add the Introduction component */}
+        <Route path="/skills" element={<Skills />} />                       {/* Add the Skills component */}
+        <Route path="/projects" element={<Projects />} />                   {/* Add the Projects component */}
+        <Route path="/contact" element={<Contact />} />                     {/* Add the Contact component */}
+      </Routes>                                                             {/* Close the Routes component */}
+    </Router>   
   );
 }
 
-export default App;
+export default App;                                                       // Export the App component           
